@@ -1,0 +1,58 @@
+.container-register {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.pexels.com/photos/1115128/pexels-photo-1115128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+        center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-register {
+    width: 40%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.title-register {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.form-register {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-register {
+    flex: 1;
+    min-width: 40%;
+    margin: 20px 10px 0px 0px;
+    padding: 10px;
+}
+
+.agreement-register {
+    font-size: 12px;
+    margin: 20px 0px;
+}
+
+.btn-register{
+    width: 40%;
+    border: none;
+    padding: 15px 20px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 620px) {
+    .wrapper-register {
+        width: '75%';
+    }
+}

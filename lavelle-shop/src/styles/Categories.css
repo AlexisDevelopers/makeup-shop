@@ -1,0 +1,16 @@
+.container-categories {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    min-height: 55vh;
+}
+
+@media only screen and (max-width: 620px) {
+    .container-categories {
+        display: block;
+        /* max-width: 500px; */
+        margin: 0 auto;
+    }
+}
+

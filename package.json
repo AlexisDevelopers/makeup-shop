@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "react-clear-cache": "^1.4.12"
+  },
+  "name": "makeup-shop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexis De Los Santos <alexisenmanuel@live.com>",
+  "license": "ISC",
+  "description": ""
+}
