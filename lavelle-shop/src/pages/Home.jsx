@@ -6,6 +6,7 @@ import Newsletter from '../components/Newsletter';
 import Products from '../components/Products';
 import Footer from '../components/Footer';
 import Carousel from '../components/Carousel';
+import Menu from '../components/Menu';
 
 const Home = () => {
     return (
