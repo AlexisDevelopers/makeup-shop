@@ -1,4 +1,3 @@
-````md
 # Lavelle Shop 🛍️💄
 
 Lavelle Shop is a **frontend e-commerce UI project** focused on cosmetics and makeup products.  
@@ -76,34 +75,21 @@ src/
 ├── App.jsx
 ├── index.js
 └── setupTests.js
-```
-
-The project follows a component-oriented structure, making it easy to maintain, refactor, and extend.
-
----
 
 ## 📦 Prerequisites
 
-```bash
 node >= 14
 npm >= 6
-```
-
----
 
 ## 🚀 Installation
 
-```bash
 git clone https://github.com/your-username/lavelle-shop.git
 cd lavelle-shop
 npm install
 npm start
-```
 
-The application will be available at:  
+The application will be available at:
 http://localhost:3000
-
----
 
 ## 💻 Usage
 
@@ -114,8 +100,6 @@ http://localhost:3000
 
 This project focuses on frontend structure and user interface, not on payments or backend logic.
 
----
-
 ## 🏗️ Architecture & Technical Decisions
 
 - Clear separation of concerns between components, pages, and data
@@ -125,14 +109,11 @@ This project focuses on frontend structure and user interface, not on payments o
 - Designed as a realistic base for evolving into a full e-commerce platform
 
 The architecture allows easy future integration of:
-
 - Shopping cart
 - Global state management
 - Authentication
 - Backend APIs
 - Payment systems
-
----
 
 ## 🧪 Tests
 
@@ -140,17 +121,11 @@ The project includes the default testing setup, but no automated tests are curre
 
 The structure allows adding Jest and React Testing Library in future iterations if business logic or state management is introduced.
 
----
-
 ## 🚢 Deployment
 
-```bash
 npm run build
-```
 
 The build output is optimized for production delivery.
-
----
 
 ## 🗺️ Roadmap
 
@@ -161,19 +136,14 @@ The build output is optimized for production delivery.
 - Payment processing
 - Admin dashboard
 
----
-
 ## 📝 License
 
 This project is licensed under the ISC License.
 
----
-
 ## 👤 Author
 
-Alexis De Los Santos  
+Alexis De Los Santos
 Frontend / Software Engineer
 
 - GitHub: https://github.com/AlexisDevelopers
 - LinkedIn: https://linkedin.com/in/your-profile
-````
