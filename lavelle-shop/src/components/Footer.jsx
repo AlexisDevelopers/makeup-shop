@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="container-footer">
       <div className="left-footer">
-        <h1 className="logo-footer">Lavelle Shop</h1>
+        <h1 className="logo-footer">VIU Shop</h1>
         <p className="desc-footer">
           We are a quality cosmetics store specializing in eyebrows and eyelashes, with the purpose of providing a better image to our customers. We have lipsticks, eyeshadow palettes, mascara and other makeup products.
         </p>
@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
         <div className="contactItem-footer">
           <MailOutlineIcon style={{ marginRight: "10px" }} />{" "}
-          info@lavelleshop.net
+          info@viushop.net
         </div>
         <img className="payment-footer" src="https://i.ibb.co/Qfvn4z6/payment.png" alt="foto pago" />
       </div>
