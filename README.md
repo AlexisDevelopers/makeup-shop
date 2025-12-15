@@ -1,3 +1,4 @@
+````md
 # Lavelle Shop 🛍️💄
 
 Lavelle Shop is a **frontend e-commerce UI project** focused on cosmetics and makeup products.  
@@ -57,8 +58,8 @@ It showcases a modular React architecture, responsive design, and a clean compon
 
 ```bash
 src/
-├── assets/         # Static images and media
-├── components/     # Reusable UI components
+├── assets/
+├── components/
 │   ├── Announcement.jsx
 │   ├── Carousel.jsx
 │   ├── Categories.jsx
@@ -69,22 +70,40 @@ src/
 │   ├── Newsletter.jsx
 │   ├── Product.jsx
 │   └── Products.jsx
-├── pages/          # Main pages
-├── styles/         # CSS styles
-├── data.js         # Mock data for products and categories
+├── pages/
+├── styles/
+├── data.js
 ├── App.jsx
 ├── index.js
 └── setupTests.js
+```
 
 The project follows a component-oriented structure, making it easy to maintain, refactor, and extend.
 
+---
+
 ## 📦 Prerequisites
-Make sure you have the following installed:
+
+```bash
 node >= 14
 npm >= 6
+```
 
-The application will be available at:
+---
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/your-username/lavelle-shop.git
+cd lavelle-shop
+npm install
+npm start
+```
+
+The application will be available at:  
 http://localhost:3000
+
+---
 
 ## 💻 Usage
 
@@ -92,7 +111,10 @@ http://localhost:3000
 - Navigate through product categories
 - Explore reusable UI components
 - Interact with a responsive e-commerce layout
+
 This project focuses on frontend structure and user interface, not on payments or backend logic.
+
+---
 
 ## 🏗️ Architecture & Technical Decisions
 
@@ -110,42 +132,48 @@ The architecture allows easy future integration of:
 - Backend APIs
 - Payment systems
 
+---
+
 ## 🧪 Tests
 
 The project includes the default testing setup, but no automated tests are currently implemented.
 
 The structure allows adding Jest and React Testing Library in future iterations if business logic or state management is introduced.
 
+---
+
 ## 🚢 Deployment
 
-The application is deployed as a static site using Netlify.
+```bash
 npm run build
+```
 
 The build output is optimized for production delivery.
 
+---
+
 ## 🗺️ Roadmap
 
-Shopping cart functionality
+- Shopping cart functionality
+- Global state management
+- User authentication
+- Backend API integration
+- Payment processing
+- Admin dashboard
 
-Global state management
-
-User authentication
-
-Backend API integration
-
-Payment processing
-
-Admin dashboard
+---
 
 ## 📝 License
 
 This project is licensed under the ISC License.
 
+---
+
 ## 👤 Author
 
-Alexis De Los Santos
+Alexis De Los Santos  
 Frontend / Software Engineer
 
 - GitHub: https://github.com/AlexisDevelopers
 - LinkedIn: https://linkedin.com/in/your-profile
-
+````
