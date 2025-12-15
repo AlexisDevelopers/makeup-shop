@@ -6,7 +6,7 @@ const Newsletter = () => {
     return (
         <div className='container-newsletter'>
             <h1 className='title-newsletter'>Newsletter</h1>
-            <div className='desc-newsletter'>FIND OUT WHAT IS TRENDY, FASHIONABLE AND NEW THAT THE LAVELLESHOP HAS FOR YOU.</div>
+            <div className='desc-newsletter'>FIND OUT WHAT IS TRENDY, FASHIONABLE AND NEW THAT THE VIUSHOP HAS FOR YOU.</div>
             <div className='inputContainer-newsletter'>
                 <input className='input-newsletter' placeholder='Your email' />
                 <button className='btnSend-newsletter'>
