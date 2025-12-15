@@ -76,20 +76,25 @@ src/
 ├── index.js
 └── setupTests.js
 
+# Lavelle Shop
+
 ## 📦 Prerequisites
 
+```bash
 node >= 14
 npm >= 6
+```
 
 ## 🚀 Installation
 
+```bash
 git clone https://github.com/your-username/lavelle-shop.git
 cd lavelle-shop
 npm install
 npm start
+```
 
-The application will be available at:
-http://localhost:3000
+The application will be available at: http://localhost:3000
 
 ## 💻 Usage
 
@@ -109,6 +114,7 @@ This project focuses on frontend structure and user interface, not on payments o
 - Designed as a realistic base for evolving into a full e-commerce platform
 
 The architecture allows easy future integration of:
+
 - Shopping cart
 - Global state management
 - Authentication
@@ -123,7 +129,9 @@ The structure allows adding Jest and React Testing Library in future iterations 
 
 ## 🚢 Deployment
 
+```bash
 npm run build
+```
 
 The build output is optimized for production delivery.
 
@@ -142,7 +150,7 @@ This project is licensed under the ISC License.
 
 ## 👤 Author
 
-Alexis De Los Santos
+**Alexis De Los Santos**  
 Frontend / Software Engineer
 
 - GitHub: https://github.com/AlexisDevelopers
